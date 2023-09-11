@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.HelloController">
+   <children>
+      <Pane layoutX="26.0" layoutY="19.0" prefHeight="165.0" prefWidth="200.0" snapToPixel="false">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Nome:" />
+            <Label layoutX="12.0" layoutY="43.0" text="Tipo:" />
+            <Label layoutX="11.0" layoutY="73.0" text="Vida:" />
+            <Label layoutX="10.0" layoutY="107.0" text="Armadura:" />
+            <Button fx:id="heroisAdicionar" layoutX="67.0" layoutY="138.0" mnemonicParsing="false" onAction="#fazerAdicionarHerois" text="Adicionar" />
+            <ChoiceBox fx:id="heroisTipo" layoutX="88.0" layoutY="39.0" prefHeight="8.0" prefWidth="74.0" />
+            <TextField fx:id="heroisNome" layoutX="88.0" layoutY="10.0" prefHeight="25.0" prefWidth="74.0" />
+            <TextField fx:id="heroisVida" layoutX="89.0" layoutY="70.0" prefHeight="25.0" prefWidth="74.0" />
+            <TextField fx:id="heroisArmardura" layoutX="88.0" layoutY="103.0" prefHeight="25.0" prefWidth="74.0" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Pane>
+      <Pane layoutX="338.0" layoutY="21.0" prefHeight="165.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Nome:" />
+            <Label layoutX="12.0" layoutY="43.0" text="Tipo:" />
+            <Label layoutX="11.0" layoutY="73.0" text="Vida:" />
+            <Label layoutX="10.0" layoutY="107.0" text="Armadura:" />
+            <Button fx:id="bestasAdicionar" layoutX="67.0" layoutY="137.0" mnemonicParsing="false" onAction="#fazerAdicionarBestas" text="Adicionar" />
+            <ChoiceBox fx:id="bestasTipo" layoutX="88.0" layoutY="39.0" prefHeight="8.0" prefWidth="74.0" />
+            <TextField fx:id="bestasNome" layoutX="88.0" layoutY="10.0" prefHeight="25.0" prefWidth="74.0" />
+            <TextField fx:id="bestasVida" layoutX="88.0" layoutY="69.0" prefHeight="25.0" prefWidth="74.0" />
+            <TextField fx:id="bestasArmadura" layoutX="88.0" layoutY="103.0" prefHeight="25.0" prefWidth="74.0" />
+         </children>
+      </Pane>
+      <Label layoutX="40.0" layoutY="5.0" text="Heróis">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="5.0" text="Bestas">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="272.0" layoutY="178.0" text="Luta">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="201.0" text="Heróis">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="201.0" text="Bestas">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="subirbtn" layoutX="43.0" layoutY="390.0" mnemonicParsing="false" onAction="#SubirHerois" text="Subir" />
+      <Button fx:id="descerBtn" layoutX="100.0" layoutY="390.0" mnemonicParsing="false" onAction="#descerHerois" text="Descer" />
+      <Button fx:id="eliminarBotton" layoutX="160.0" layoutY="390.0" mnemonicParsing="false" onAction="#eliminarHerois" text="Eliminar" />
+      <Button fx:id="subirBtn" layoutX="351.0" layoutY="390.0" mnemonicParsing="false" onAction="#SubirBestas" text="Subir" />
+      <Button fx:id="descerbtn" layoutX="409.0" layoutY="390.0" mnemonicParsing="false" onAction="#descerBestas" text="Descer" />
+      <Button fx:id="eliminarBtn" layoutX="478.0" layoutY="390.0" mnemonicParsing="false" onAction="#eliminarBestas" text="Eliminar" />
+      <Button fx:id="lutaBtn" layoutX="247.0" layoutY="385.0   " mnemonicParsing="false" onAction="#lutaFinal" prefHeight="43.0" prefWidth="87.0" text="LUTA!" />
+      <ListView fx:id="heroiList" layoutX="40.0" layoutY="218.0" prefHeight="165.0" prefWidth="200.0" />
+      <ListView fx:id="bestaList" layoutX="344.0" layoutY="218.0" prefHeight="165.0" prefWidth="200.0" />
+      <ListView fx:id="lutaList" layoutX="1.0" layoutY="428.0" prefHeight="115.0" prefWidth="588.0" />
+   </children>
+</Pane>
