@@ -1,4 +1,4 @@
-###Olá! Eu sou o Francisco Luz! 🖐️🖐️
+###HELLO! I'm Francisco Luz! 🖐️🖐️
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://https://www.instagram.com/franciscovilalluz/)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://https://www.facebook.com/francisco.v.luz)
@@ -12,4 +12,4 @@
 <img align="center" alt="MYSQL" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" >
 </div><br/>
 
-Sou um entusiasta da programação, com formação em Java e conhecimentos em SQL.
+I am a programming enthusiast, with training in Java and knowledge in SQL.
