@@ -5,7 +5,7 @@
 
 ![FranciscoVL GitHub stats](https://github-readme-stats.vercel.app/api?username=FranciscoVilaLuz&show_icons=true&theme=dracula)
 
-###Tecnologia que eu uso! 💻📱🤖
+###Technology I use! 💻📱🤖
 
 <div style="display: inline_block"><br/>
 <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" >
