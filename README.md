@@ -14,4 +14,4 @@
 >
 </div><br/>
 
-I am a programming enthusiast, with training in Java and knowledge in SQL.
+I am a programming enthusiast, with training in Java, C# and knowledge in SQL.
